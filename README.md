@@ -19,26 +19,27 @@ Tech Stack
 
     Java
     Maven
-    Spring Boot 
-    H2 
+    Spring Boot (if used)
+    JPA / Hibernate (if used)
+    MySQL / H2 (adjust accordingly)
     RESTful APIs
 
 Project Structure
 
 text
 
-patient-management/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.example.patientmanagement
-│   │   │       ├── controller
-│   │   │       ├── service
-│   │   │       ├── repository
-│   │   │       └── model
-│   │   └── resources/
-│   │       └── application.properties
-└── pom.xml
+    patient-management/
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/
+    │   │   │   └── com.example.patientmanagement
+    │   │   │       ├── controller
+    │   │   │       ├── service
+    │   │   │       ├── repository
+    │   │   │       └── model
+    │   │   └── resources/
+    │   │       └── application.properties
+    └── pom.xml
 
 The project follows a layered architecture:
 
@@ -46,3 +47,4 @@ The project follows a layered architecture:
     Service – Contains business logic
     Repository – Manages database operations
     Model – Defines entity structure
+
