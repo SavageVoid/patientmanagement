@@ -1,4 +1,4 @@
-Patient Management System
+# Patient Management System
 
 A CRUD-based web application for managing patient records.
 Built using Java and Maven, the system allows users to create, read, update, and delete patient information through a structured backend architecture.
